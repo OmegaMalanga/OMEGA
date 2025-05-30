@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: rgb(230, 104,59);
+    color: #ebebeb;
+    text-align: center;
+    padding: 20px;
+    height: 30vh;
+    width: 100%;
+}
+
+/* nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    background-color: #444;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background: #ebebeb;
+    margin: 20px;
+    border-radius: 5px;
+} */
+
+footer {
+    text-align: center;
+    background-color: rgb(230, 104,59);
+    color: white;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.h2,.dev,.ex{
+    color:rgb(230, 104,59) ;
+}
+
+.logo{
+    width: 8%;
+    border: solid;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: -60px;
+} 
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: darkslategray;
+    margin-top: -3%;
+    transition: .4 ease;
+}
+    
+ul li a:hover{
+    color: rgb(230, 104, 59);
+}
+ul li a:active{
+    color: orange;
+}
+#tools{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tech-stack-section{
+    width: 100%;
+    height: 160vh;
+    padding: 2rem;
+    /* background-color: yellow; */
+}
+
+.section-title-container{
+    /* background-color: rgb(165, 160, 160); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.section-heading{
+    color: rgb(230, 104,59);
+    font-size: 40px;
+     text-align: center; 
+}
+.section-description{
+    text-align: center;
+    font-size: 20px;
+    /* font-style: italic; */
+}
+.tech-stack-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    /* height: 100%; */
+}
+.html-css-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+}
+.tech {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 10px rgb(0, 0,0,0.4);
+    border-radius: 10px;
+    
+}
+.javascript{
+    justify-content: flex-start;
+}
+.tech-img{
+    width: 200px;
+    height: 200px;
+    /* width: 80%;
+    height: 80%; */
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    /* margin-right: 2rem; */
+
+}
+.tech-img img{
+    width: 70%;
+    height: 70%;
+}
+.tech-description{
+    width: 300PX;
+    /* background-color: black; */
+}
+.tech-description h3{
+    font-size: 25px;
+    margin-bottom: 1rem;
+}
+.tech-description p{
+    text-align: justify;
+}
+.javascript .tech-description{
+    width: 80%;
+}
+.expertise{
+    width: 300px;
+    height: .3rem;
+    background-color: #ebebeb;
+    margin-top: 2rem;
+    position: relative;
+}
+.expertise::before{
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-color: rgb(230, 104,59);
+    position: absolute;
+    /* right: 20%; */
+    /* border: .3rem solid rgb(230, 104,59); */
+    border-radius: 50%;
+    top: -7px;
+}
+.html-expertise::before{
+    right: 5%;
+}
+
+.css-expertise::before{
+    right: 5%;
+}
+
+.js-expertise::before{
+    right: 20%;
+}
+.level{
+    margin-top: 1rem;
+    color: rgb(230, 104, 59);
+    font-style: italic;
+}

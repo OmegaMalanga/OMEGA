@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fa-solid,.fa-brands{
+    color: rgb(24, 24, 26);
+    margin-top: 50px;
+    margin-left: 500px;
+     width: 200;
+    
+} 
+body{
+    background-color: seagreen;
+}
+
+#box1{
+    width: 250px;
+    height: 250px;
+    margin-top: 200px;
+    background: red;
+    font-size: 225px;
+    text-align: center;
+    animation: myColor;
+    animation-play-state: running;
+    animation-delay: 0;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 5s; 
+}
+    /* animation: 3s linear 0s infinite running mySlide; */
+/* } */
+/* #box1:hover{ */
+     /* animation: 3s linear 0s infinite running mySlide;  */
+/* } */
+/* #box1:active{ */
+    /* animation: 3s linear 0s infinite running mySlide; */
+/* } */
+
+@keyframes mySlide{
+    from{margin-left:0%}
+    to{margin-left: 100%}
+}
+
+@keyframes myRotate{
+    /* 100%{transform: rotateX(360deg);} */
+    /* 100%{transform: rotateY(360deg)} */
+    100%{transform: rotateZ(360deg)}
+}
+@keyframes myOpacity{
+    50%{opacity: 0;}
+}
+@keyframes myScales{
+    50%{transform:scale(0.5,0.5) ;}
+}
+@keyframes myColor{
+    20%{background-color:orange;}
+    40%{background-color:rgb(0, 255, 42);}
+    60%{background-color:rgb(119, 0, 255);}
+    80%{background-color:rgb(255, 0, 157);}
+    100%{background-color:rgb(168, 160, 145);}
+
+}
+    

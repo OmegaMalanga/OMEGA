@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.welcome{
+width: 1000px;
+height: 1500px;
+font-style: inherit;
+}
+body{
+    background-image: url("1.jpg");
+    
+}
